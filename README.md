@@ -9,12 +9,12 @@
 
 To install fastCNV, run in R:
 
-```         
-# Previous Version
-remotes::install_github("must-bioinfo/fastCNV")
-
+```    
 # Modified Version by Zaoqu Liu
 remotes::install_github("Zaoqu-Liu/fastCNV")
+     
+# Previous Version
+# remotes::install_github("must-bioinfo/fastCNV")
 ```
 
 ## Usage
