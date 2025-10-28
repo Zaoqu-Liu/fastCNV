@@ -45,7 +45,7 @@ prepareCountsForCNVAnalysis <- function(seuratObj,
       }
     }
 
-    countsMat <- as.matrix(Seurat::GetAssay(seuratObj, assay = assay)$counts)
+    countsMat <- as.matrix(Seurat::GetAssay(seuratObj, assay = assay)@counts)
     LC <- split(Seurat::Cells(seuratObj), Seurat::FetchData(seuratObj, vars = "seurat_clusters"))
     LC <- lapply(lapply(LC, function(cells) {
       nc <- Seurat::FetchData(seuratObj, vars = paste0("nCount_", assay))[cells, ]
