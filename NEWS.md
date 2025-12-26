@@ -1,4 +1,4 @@
-# fastCNV2 1.5.0
+# fastCNV 1.5.0
 
 ## Major Bug Fixes
 - Fixed subscript out of bounds in CNVCalling

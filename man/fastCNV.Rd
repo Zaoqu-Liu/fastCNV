@@ -135,7 +135,7 @@ A list of Seurat objects after all the analysis is complete. Heatmaps of the CNV
 fastCNV calls all of the internal functions needed to compute the putative CNV on a Seurat object or a list of Seurat objects
 }
 \note{
-This function is part of the fastCNV2 package (modified version of fastCNV)
+This function is part of the fastCNV package (enhanced version with improved compatibility)
 
 This function orchestrates the CNV analysis on a Seurat object (or multiple objects). It calls internal functions such as
 \code{prepareCountsForCNVAnalysis}, \code{CNVAnalysis}, \code{CNVPerChromosomeArm}, \code{CNVcluster}, and \code{PlotCNVResults} to compute the CNVs,

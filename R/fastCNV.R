@@ -1,6 +1,6 @@
 #' fastCNV calls all of the internal functions needed to compute the putative CNV on a Seurat object or a list of Seurat objects
 #'
-#' @note This function is part of the fastCNV2 package (modified version of fastCNV)
+#' @note This function is part of the fastCNV package (enhanced version with improved compatibility)
 #'
 #' This function orchestrates the CNV analysis on a Seurat object (or multiple objects). It calls internal functions such as
 #' `prepareCountsForCNVAnalysis`, `CNVAnalysis`, `CNVPerChromosomeArm`, `CNVcluster`, and `PlotCNVResults` to compute the CNVs,

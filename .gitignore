@@ -2,7 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
 *.tar.gz
 *.Rcheck/
-.DS_Store
-
+*.o
+*.so
+*.dll
